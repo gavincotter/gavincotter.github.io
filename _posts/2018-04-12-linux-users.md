@@ -9,14 +9,14 @@ test:!:17637:0:99999:7:::
 useradd test
 passwd test
 cat /etc/passwd
-test:$6$orDX010h$h5aBUn3tJjUY3Xn8CLo267caeVKuK9YAmt9TrQDc0VwYxDf2VSlrML3FGDeSP7OPy2YUnOX3rBEN8.GnlPUL0.:17637:0:99999:7:::
+test::17637:0:99999:7:::
 
 
 
 #locked
 passwd -l test
 cat /etc/passwd
-test:!$6$orDX010h$h5aBUn3tJjUY3Xn8CLo267caeVKuK9YAmt9TrQDc0VwYxDf2VSlrML3FGDeSP7OPy2YUnOX3rBEN8.GnlPUL0.:17637:0:99999:7:::
+test::17637:0:99999:7:::
 
 
 #create a system account
