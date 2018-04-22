@@ -18,3 +18,4 @@ categories: Cryptography
 
 <b>#Decrypt the digital signature. Hash the message and compare both hashes.</b>
 <br>openssl dgst -sha256 -verify public.key -signature signature.bin message.txt
+![My helpful screenshot]({{ "/assets/screenshot.jpeg" | absolute_url }})
