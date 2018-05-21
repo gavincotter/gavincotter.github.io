@@ -6,7 +6,7 @@ categories: Bitcoin
 ---
 
 
-
+<pre>
 #GITHUB
 #https://github.com/gavincotter
 
@@ -45,3 +45,4 @@ systemctl start bitcoind
 
 #ENABLE USER(S) READ ACCESS TO BITCOIN.CONF
 adduser bitcoin user
+</pre>
