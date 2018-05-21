@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Bitcoin - shared ledgers"
+date: 2018-04-24
+categories: bitcoin
+---
 
 Real world business problem.
 

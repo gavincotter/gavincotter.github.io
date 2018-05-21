@@ -8,7 +8,8 @@ categories: Cryptography
 <h2>How to digitally sign a document using Openssl on Linux.</h2>
 <br>
 <b>#generate a public and private RSA key pair</b>
-<br>openssl genrsa -out private.key 2048 openssl rsa -pubout -in private.key -out public.key
+<br>openssl genrsa -out private.key 2048
+<br>openssl rsa -pubout -in private.key -out public.key
 
 <b>#Assign correct file permissions</b>
 <br>chmod 700 ~/.ssh; chmod 600 ~/.ssh/private.key; chmod 600 ~/.ssh/public.pub

@@ -1,0 +1,23 @@
+Transaction Outputs and Inputs
+
+
+
+how transactions build a chain
+
+
+generate a public and private RSA key pair
+
+
+append only transaction ledgers
+genesis file.part-0
+
+
+send intention to address ( digitalsignature.bin, public.key, hash )
+listen for destination address equal to yours
+if address is equal and if sender owns private key 
+put in outputs box
+
+
+intention equals hash(data)=thehash, encrypt(private.key,thehash)=signature.bin
+owns private key equals decrypt signature and compare hash
+
