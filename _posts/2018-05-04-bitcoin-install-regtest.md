@@ -5,14 +5,12 @@ date: 2018-05-04
 categories: Bitcoin
 ---
 
-
 <pre>
 #GITHUB
 #https://github.com/gavincotter
 
 #HOMEPAGE
 #https://gavincotter.github.io
-
 
 #ADD SYSTEM USER TO RUN THE BITCOIND DAEMON
 adduser --system --group --home /home/bitcoin bitcoin
